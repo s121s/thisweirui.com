@@ -1,4 +1,4 @@
-						$(function() {
+						function() {
 							alert("我敢保证，你现在用的是演示一");
 							var menu_ul = $('.menu_drop > li > ul'),
 								menu_a  = $('.menu_drop > li > a');
@@ -15,5 +15,5 @@
 								}
 							});
 						
-						});
+						}
 				
