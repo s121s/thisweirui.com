@@ -1,0 +1,122 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+/*--style for menu-drop--*/
+.vol {
+  background-color: #01c675;
+  padding: 1.8em;
+}
+.rou {
+  float: left;
+  width: 21%;
+}
+.rou-rgt {
+  float: right;
+  width: 72%;
+}
+.rou-top li {
+  display: inline-block;
+}
+.rou-top li a {
+  background-color: #009e5d;
+  padding: 0.4em 2.2em;
+  display: block;
+  font-size: 0.875em;
+  text-decoration: none;
+  color: #fff;
+}
+.rou-top li a:hover{
+  background-color: #0AAE6B;
+}
+.vol h6 {
+  font-size: 1.1em;
+  color: #fff;
+  margin: 0 0 1em;
+}
+li.qu {
+  margin-right: 0.5em;
+}
+.menu-grid {
+  margin-top: 30px;
+  margin-right: 2em;
+}
+.menu_drop {
+	background:#01c675;
+	width: auto;
+	height: auto;
+	padding: 0;
+	list-style: none;
+}
+.litt , .menu_drop > li ,  .litt> li{
+	padding: 0;
+	list-style: none;
+width:265px;
+
+}
+.menu_drop > li > a {
+border-top:1px solid #0DA84C;
+  width: 100%;
+  line-height: 3.8em;
+  text-indent: 20px;
+  display: block;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.menu_drop ul li a {
+  background: #fff;
+  width: 100%;
+  padding: 6px 0;
+  text-indent: 22px;
+  display: block;
+  position: relative;
+  font-size: 15px;
+  font-weight: 400;
+  color: #625548;
+  text-decoration: none;
+}
+.menu_drop ul li a:hover {
+color:#a6192e;
+}
+.menu_drop > li > a:hover, .menu > li > a.active {
+background:#025D28;
+}
+/*--//style for menu-drop--*/
+.socialspan_3 {
+  background-color: #fff;
+  padding: 1em;
+  text-align: center;
+  margin: 3em 2em 0 0em;
+}
+.socialspan_3 img {
+  display: inline-block;
+}
+.socialspan_3 h3 {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 1em 0;
+  color:#01c675;
+}
+.socialspan_3 h6 {
+  font-size: 1.1em;
+  color: #cdcdcd;
+  margin: 0;
+}
+.socialspan_3 p {
+  font-size: 0.9em;
+  color: #464545;
+  line-height: 1.8em;
+  margin: 1em 0;
+  font-weight: 400;
+}
+
+
+@media (min-width: 992px) {
+  .col-md-3{
+    float: left;
+  }
