@@ -13,7 +13,7 @@
 									$(this).removeClass('active');
 									$(this).next().stop(true,true).slideUp('normal');
 								}
-							});
+							}
 						
 						}
 				
