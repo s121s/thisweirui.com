@@ -1,5 +1,4 @@
-						function() {
-							alert("我敢保证，你现在用的是演示一");
+						$(function() {
 							var menu_ul = $('.menu_drop > li > ul'),
 								menu_a  = $('.menu_drop > li > a');
 							menu_ul.hide();
@@ -13,7 +12,7 @@
 									$(this).removeClass('active');
 									$(this).next().stop(true,true).slideUp('normal');
 								}
-							}
+							});
 						
-						}
+						});
 				
